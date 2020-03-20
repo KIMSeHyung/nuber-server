@@ -32,7 +32,7 @@ class Verification extends BaseEntity {
 
   @ManyToOne(
     type => User,
-    user => user.verification
+    user => user.verifications
   )
   user: User;
 
