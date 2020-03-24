@@ -11,6 +11,7 @@
     "@types/helmet": "^0.0.45",
     "@types/morgan": "^1.9.0",
     "@types/node": "^13.9.2",
+    "@types/twilio": "^2.11.0",
     "eslint": "^6.8.0",
     "gql-merge": "^0.0.6",
     "graphql-to-typescript": "^0.1.2",
@@ -36,6 +37,7 @@
     "helmet": "^3.21.3",
     "merge-graphql-schemas": "^1.7.6",
     "morgan": "^1.9.1",
-    "pg": "^7.18.2"
+    "pg": "^7.18.2",
+    "twilio": "^3.41.1"
   }
 }
