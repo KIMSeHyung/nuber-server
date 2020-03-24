@@ -8,7 +8,7 @@
 
 - [x] Sign In / Sign Up with Facebook
 - [x] Sign In with Email
-- [ ] Starts Phone Number Verification
+- [x] Starts Phone Number Verification
 - [ ] Complete Phone Number Verification
 - [ ] Sign Up with Emaiil
 ---
