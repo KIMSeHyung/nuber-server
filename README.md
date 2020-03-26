@@ -16,12 +16,13 @@
 ### Authentication:
 
 - [x] Generate JWT
-- [ ] Verifiy JWT
+- [x] Verifiy JWT
 
 ### Private Resolvers:
 
-- [ ] verify Email
-- [ ] Get My Profile
+- [x] Get My Profile
+- [ ] Request Email Verification
+- [ ] Complete Email Verification
 - [ ] Update My Profile
 - [ ] Toggle Driving Mode
 - [ ] Report location / orientation
