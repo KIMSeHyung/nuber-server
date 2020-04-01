@@ -21,18 +21,19 @@
 ### Private Resolvers:
 
 - [x] Get My Profile
-- [ ] Request Email Verification
-- [ ] Complete Email Verification
-- [ ] Update My Profile
-- [ ] Toggle Driving Mode
-- [ ] Report location / orientation
-- [ ] Add Place
-- [ ] Edit Place
-- [ ] Delete Place
-- [ ] See Nearby Drivers
-- [ ] Subscribe to Nearby Drivers
-- [ ] Request a Ride
-- [ ] Get Nearby Rides
+- [x] Request Email Verification
+- [x] Complete Email Verification
+- [x] Update My Profile
+- [x] Toggle Driving Mode
+- [x] Report location / orientation
+- [x] Add Place
+- [x] Edit Place
+- [x] Delete Place
+- [x] Get My Places
+- [x] See Nearby Drivers
+- [x] Subscribe to Nearby Drivers
+- [x] Request a Ride
+- [x] Get Nearby Rides Requests
 - [ ] Subscribe to Nearby Ride Requests
 - [ ] Subscribe to Ride Status
 - [ ] Get Chat Room Messages

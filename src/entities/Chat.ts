@@ -21,8 +21,8 @@ import {
     @OneToMany(type => User, user => user.chat)
     participants: User[];
 
-    @CreateDateColumn() createdAt;
-    @UpdateDateColumn() updatedAt;
+    @CreateDateColumn() createdAt: string;
+    @UpdateDateColumn() updatedAt: string;
   }
   
   export default Chat;

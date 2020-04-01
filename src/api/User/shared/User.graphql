@@ -3,7 +3,7 @@ type User {
   email: String
   verifiedEmail: Boolean!
   firstName: String!
-  lastName: String
+  lastName: String!
   age: Int
   password: String
   phoneNumber: String
@@ -21,6 +21,7 @@ type User {
   messages: [Message]
   ridesAsPassenger: [Ride]
   ridesAsDriver: [Ride]
+  places: [Place]
   createdAt: String!
   updatedAt: String
 }

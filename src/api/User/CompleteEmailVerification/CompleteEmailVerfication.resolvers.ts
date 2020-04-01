@@ -5,7 +5,7 @@ import {
   CompleteEmailVerificationMutationArgs,
   CompleteEmailVerificationResponse
 } from "../../../types/graph";
-import Verification from "src/entities/Verification";
+import Verification from "../../../entities/Verification";
 
 const resolvers: Resolvers = {
   Mutation: {

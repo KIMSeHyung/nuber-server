@@ -15,6 +15,7 @@ import {
 import Chat from "./Chat";
 import Message from "./Message";
 import Ride from "./Ride";
+import Place from "./Place";
 
 const BCRYPT_ROUNDS = 10;
 
@@ -96,8 +97,14 @@ class User extends BaseEntity {
   )
   ridesAsDriver: Ride[];
 
-  @CreateDateColumn() createdAt;
-  @UpdateDateColumn() updatedAt;
+  @OneToMany(
+    type => Place,
+    place => place.user
+  )
+  places: Place[];
+
+  @CreateDateColumn() createdAt: string;
+  @UpdateDateColumn() updatedAt: string;
 
   get fullName(): string {
     return `${this.firstName} ${this.lastName}`;
